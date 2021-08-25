@@ -12,6 +12,6 @@ frontend:
         - npm install -g shadow-cljs
         - npm ci
     build:
-      commands: [lein prod]
+      commands: [lein dev]
   artifacts:
     baseDirectory: resources/public/
